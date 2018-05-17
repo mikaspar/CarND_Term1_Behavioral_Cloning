@@ -74,4 +74,4 @@ At the end of the process, the vehicle is able to drive autonomously around the 
 
 ### Challenge track
 
-To keep the vehicle on the road of the challenge track it was necessary to provide additional training data from this track and to reduce the longitudinal speed to 10 mph. The finetuning on this track was not finished on the dead line date.
+To keep the vehicle on the road of the challenge track it was necessary to provide additional training data from this track and to reduce the longitudinal speed to 10 mph. This provides a good start to maste the challenge track. Another possible improvement would be to build a model on vehicles velocity and use it as a set_speed variable for the PI-Speed Controller.
