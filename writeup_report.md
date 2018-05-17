@@ -56,7 +56,10 @@ The training images are first normalized and mean centred using Lambda function 
 
 #### 2. The used CovNet Architecture 
 
-After several attempts with LeNet and its adaptation i decided to avoid the dropout layers because they caused the underfitting of the model. I received best results when using the NVIDIA architecture.
+After several attempts with LeNet and its adaptation i decided to use the nVidia Architecture. I received best results when using the NVIDIA architecture with added dropout layers.
+
+
+
 
 The model was trained and validated on different data sets to ensure that the model was not overfitting (using validation_split =0.2 of Keras fit function). The model was tested by running it through the simulator and ensuring that the vehicle could stay on the track.
 
