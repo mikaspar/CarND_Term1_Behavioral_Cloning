@@ -58,8 +58,7 @@ The training images are first normalized and mean centred using Lambda function 
 
 After several attempts with LeNet and its adaptation i decided to use the nVidia Architecture. I received best results when using the NVIDIA architecture with added dropout layers.
 
-
-
+![CovNet Model] (https://raw.githubusercontent.com/mikaspar/CarND_Term1_Behavioral_Cloning/master/model_plot.png)
 
 The model was trained and validated on different data sets to ensure that the model was not overfitting (using validation_split =0.2 of Keras fit function). The model was tested by running it through the simulator and ensuring that the vehicle could stay on the track.
 
